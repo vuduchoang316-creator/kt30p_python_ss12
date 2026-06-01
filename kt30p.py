@@ -26,13 +26,13 @@ while True:
             max_id += 1
             while True:
                 input_type = input("Nhập loại xe: ").strip()
-                if not input_type :
+                if not input_type.strip() :
                     print("Loại xe không được để trống")
                     continue
                 break
             while True: 
                 input_owner = input("Nhập tên chủ xe: ").strip().title()
-                if not input_owner:
+                if not input_owner.strip():
                     print("Lỗi chủ xe không được để trống")
                     continue
                 break
